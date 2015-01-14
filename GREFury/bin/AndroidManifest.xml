@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grefury"
+    android:versionCode="1"
+    
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="16" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            
+            android:name="com.example.grefury.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.grefury.MainMenu"
+            android:label="@string/app_name" />
+          <activity
+            android:name="com.example.grefury.Register"
+            android:label="@string/app_name" />
+           <activity
+            android:name="com.example.grefury.Login"
+            android:label="@string/app_name" />
+           <activity
+            android:name="com.example.grefury.TopMenu"
+            android:label="@string/app_name" />
+            <activity
+            android:name="com.example.grefury.ReadFile"
+            android:label="@string/app_name" />
+            <activity
+            android:name="com.example.grefury.ScoreScreen"
+            android:label="@string/app_name" />
+            <activity
+            android:name="com.example.grefury.PlayScreen"
+            android:label="@string/app_name" />
+             <activity
+            android:name="com.example.grefury.NextScreen"
+            android:label="@string/app_name" />
+              <activity
+            android:name="com.example.grefury.ShowListOfWords"
+            android:label="@string/app_name" />
+             
+            
+    </application>
+
+</manifest>

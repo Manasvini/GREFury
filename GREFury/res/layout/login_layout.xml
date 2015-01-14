@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_screen_background"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/login_password_text_box"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_details_button"
+        android:layout_alignTop="@+id/login_password_text"
+        android:layout_marginLeft="38dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_details_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="sign in" />
+
+    <TextView
+        android:id="@+id/login_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_details_button"
+        android:layout_alignLeft="@+id/login_username_text"
+        android:layout_marginBottom="30dp"
+        android:text="Passoword"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/login_user_text_box"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_password_text_box"
+        android:layout_alignLeft="@+id/login_password_text_box"
+        android:layout_marginBottom="53dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/login_username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_user_text_box"
+        android:layout_alignBottom="@+id/login_user_text_box"
+        android:layout_marginRight="24dp"
+        android:layout_toLeftOf="@+id/login_user_text_box"
+        android:text="User Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>

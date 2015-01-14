@@ -1,0 +1,8 @@
+GREFury is an Android application for learning new words for the purpose of GRE preparation.
+In the practice mode, the user is given a set of 10 words, which they have to guess, in a way similar to hangman.
+Every word has a time limit.
+The user has the option of asking for a hint, which will basically show the meaning and the usage of the word.
+GREFUry has been built with Java, PHP, MySQL and SQLite
+PHP and MySQL are used for the purpose of user registration
+SQLite is the data store for the words and their definitions
+

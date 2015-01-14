@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GREFury</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="splash_image_desc">splash image</string>
+    <string name="register_button_string">Register</string>
+    <string name="login_button_string">Login</string>
+    <string name="play_button_string">Play</string>
+    <string name="practice_button_string">Practice</string>
+    <string name="profile_button_string">View profile</string>
+    <string name="quit_button_text">Quit</string>
+	<color name="myblue">#089ACE</color>
+	<color name="myorange">#FFA208</color>
+	
+    
+</resources>
